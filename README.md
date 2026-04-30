@@ -1,8 +1,8 @@
 # FPS
 
-Se parte de la plantilla original de Unity *6000.0.53.f1*, llamada FPS Microgame. Recuerda descargarlo usando Git LFS.
+Se parte de la plantilla original de Unity *6000.0.53.f1*, llamada FPS Microgame. Está disponible como plantilla para descargar al crear un nuevo proyecto y pinchar en la pestaña de Learning. 
 
-Los cambios que se hacen son mínimos, pensando en facilitar la inclusión de un bot que haga las veces de jugador virtual.
+Los cambios que se hacen son mínimos, pensando en facilitar la inclusión de un bot que haga las veces de jugador virtual. Recuerda descargar este repositorio usando Git LFS.
 
 ## FPS Microgame
 
@@ -43,10 +43,7 @@ IntroMenu es la escena que contiene el menú del juego. Encontramos estos objeto
 * ControlsImageCanvas, para mostrar visualmente los controles del juego
 * MenuNavigation, para poder navegar interactuando con el menú
 * EventSystem
-* StartButtonsManager, donde se ha incluido el script MainMenuNetworkUI que permite poner en marcha el juego en red, tanto de cliente como de servidor
-* LocalRespawnService, para respawnear objetos del juego (es en sí mismo un objeto no destruible al cargar escenas)
-* NetworkManager, para llevar todo el tema de la sesión de juego en red... se usa el componente Unity Transport (es en sí mismo un objeto no destruible al cargar escenas)
-* [Debug Updater], pequeña herramienta para ayudar a la depuración... (es en sí mismo un objeto no destruible al cargar escenas)
+* StartButtonsManager 
 
 MainScene es la escena principal del juego, una sala de ejemplo donde poder probarlo todo. Encontramos estos objetos:
 * GameManager, general
@@ -69,11 +66,6 @@ MainScene es la escena principal del juego, una sala de ejemplo donde poder prob
 * VFX_Dust
 * VFX_Lava
 * Level, con toda la geometría de cada una de las habitaciones del nivel por debajo
-* NetworkManager (realmente no hace falta porque vendrá del propio menú)
-* RespawnPoints, puntos de respawn
-* WeaponSpawner, respawn de armas
-* Player_Network, quizá tampoco se usa porque aparecen los jugadores sobrela marcha
-* AnalysisDataManager, para análisis de datos que no estamos usando
 
 ### Clases y sus relaciones
 
