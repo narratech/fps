@@ -1,8 +1,9 @@
 # FPS
 
-Se parte de la plantilla original de Unity *6000.0.53.f1*, llamada FPS Microgame. Está disponible como plantilla para descargar al crear un nuevo proyecto y pinchar en la pestaña de Learning. 
+Se parte de la plantilla original de Unity 6000.0.53.f1, llamada FPS Microgame. Está disponible como plantilla para descargar al crear un nuevo proyecto y pinchar en la pestaña de Learning. 
 
-Los cambios que se hacen son mínimos, pensando en facilitar la inclusión de un bot que haga las veces de jugador virtual. Recuerda descargar este repositorio usando Git LFS.
+Los cambios que se hacen son mínimos, pensando en facilitar la inclusión de un bot que haga las veces de jugador virtual. Uno de ellos es actualizar el proyecto a *Unity 6000.3.12f1* quitando un fichero sobrante y actualizando una biblioteca para eliminar avisos en el editor.
+¡Importante, recuerda descargar este repositorio usando Git LFS!
 
 ## FPS Microgame
 
